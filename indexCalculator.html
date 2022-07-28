@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <h1>CALCULATOR</h1>
+         <table>
+            <div>
+                <input type="text" id="display">
+            </div>
+            <div>
+                <button class="clrBtn" onclick="clr()">clear</button>
+            </div>
+            <div class="btnDiv">
+                <div >
+                    <button class="buton" onclick="displayNum('7')">7</button>
+                    <button class="buton" onclick="displayNum('8')">8</button>
+                    <button class="buton" onclick="displayNum('9')">9</button>
+                    <button class="buton" onclick="displayNum('+')">+</button>
+                </div>
+                <div>
+                    <button class="buton" onclick="displayNum('4')">4</button>
+                    <button class="buton" onclick="displayNum('5')">5</button>
+                    <button class="buton" onclick="displayNum('6')">6</button>
+                    <button class="buton" onclick="displayNum('-')">-</button>
+                </div>
+                <div>
+                    <button class="buton" onclick="displayNum('1')">1</button>
+                    <button class="buton" onclick="displayNum('2')">2</button>
+                    <button class="buton" onclick="displayNum('3')">3</button>
+                    <button class="buton" onclick="displayNum('/')">/</button>
+                </div>
+                <div>
+                    <button class="buton buton-per" onclick="displayNum('%')">%</button>
+                    <button class="buton" onclick="displayNum('0')">0</button>
+                    <button class="buton" onclick="displayNum('.')">.</button>
+                    <button class="buton buton-equal" onclick="getResult()">=</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+        
+</body>
+</html>

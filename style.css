@@ -1,0 +1,77 @@
+body{
+
+}
+h1{
+    font-size: 24px;
+}
+.main{
+    border: 5px solid black;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+    padding: 10 40px;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    background-color: rgba(153, 216, 137, 0.144);
+}
+#display{
+    width: 85%;
+    height: 40px;
+    border-radius:10px ;
+    font-size: 20px;
+}
+.buton{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    /* margin-left: 0px; */
+    margin-bottom: 4px;
+    line-height: 40px;
+    transition: all .2s;
+    
+
+}
+.buton:hover{
+    box-shadow: 1px 1px 20px rgba(0,0,0,.2);
+    transform: translateY(-2px);
+}
+.clrBtn{
+    margin: 4px 2px;
+    width: 82%;
+    height: 30px;
+    border-radius: 5px; 
+
+}
+.clrBtn:hover{
+    border-radius: 10px;
+    background-color: rgba(153, 216, 137, 0.144);
+}
+.clrBtn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+.buton-per, .buton-equal{
+
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-bottom: 4px;
+    line-height: 40px;
+}
+#display:hover{
+    box-shadow: 1px 1px 20px rgba(0,0,0,.2);
+    transform: translateY(-2px);
+}
+.btnDiv{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: rgba(153, 216, 137, 0.144);
+
+}
+.buton:active{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
